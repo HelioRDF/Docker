@@ -1,0 +1,82 @@
+
+//Construir imagem
+> docker build -t hi-docker .
+
+//Visualizar imagens
+> docker images
+
+//Executar via CMD
+> docker run hi-docker
+
+//Consultar containers
+> docker ps -a
+
+//Baixar imagem ubuntu
+> docker pull ubuntu
+
+//Executar  imagem ubuntu
+> docker run -it ubuntu
+
+//Usuário
+> whoami
+
+//consultar pasta
+> echo $0
+
+//consultar ultimos comandos
+> history
+
+//listar pacotes presentes no linux
+> apt list
+
+//Atualizar ubuntu
+> apt update
+
+//instalar  nano
+> apt install nano
+
+//remover  nano
+> apt remove nano
+
+//Executar  imagem windows
+> docker run it dockurr/windows
+
+//listar tudo que está no diretório
+> ls
+
+//listar tudo que está no diretório
+> ls -1
+
+//listar tudo que está no diretório
+> ls -l
+
+//Visualizar caminho
+> ls /etc
+
+//Identificar caminho atuar
+> pwd
+
+//entrar em pasta
+> cd /etc
+
+//voltar caminho
+> cd /etc
+
+// Renomear diretório
+> mv pasta01 pasta001
+
+//Criar arquivo
+> touch arquivo.txt
+
+//Criar arquivos
+> touch arquivo.txt arquivo2.txt arquivo3.txt
+
+//Remover arquivo
+> rm arquivo.txt
+
+//Remover arquivos que iniciam com "a"
+> rm a*
+
+//Remover diretório
+> rm -r pasta01
+
